@@ -189,11 +189,13 @@ return (
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-10">
             1 year of experience building scalable and high-performance applications. Specialized in developing robust backend systems and responsive web applications.
           </p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#projects" className="px-8 py-3 bg-white text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition-all">View My Work</a>
-            <a href="#contact" className="px-8 py-3 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all">Contact Me</a>
-          </div>
+          <div id="home-buttons">
+  <a href="#projects" className="btn btn-primary">View My Work</a>
+  <a href="#contact" className="btn btn-outline">Contact Me</a>
+</div>
+
         </div>
+        
       </section>
 
       {/* About Section */}

@@ -670,3 +670,65 @@
   
   .contact-form button:hover {
     background-color: #1E40}
+
+
+    /* Buttons Container */
+#home-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  #home-buttons {
+    flex-direction: row; /* बड़े स्क्रीन पर बटन साइड बाय साइड होंगे */
+  }
+}
+
+/* Common Button Styles */
+#home-buttons .btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Button */
+#home-buttons .btn-primary {
+  background: white;
+  color: #2563eb;
+  border: 2px solid white;
+}
+
+#home-buttons .btn-primary:hover {
+  background: #dbeafe;
+  color: #1e40af;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Outline Button */
+#home-buttons .btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+#home-buttons .btn-outline:hover {
+  background: white;
+  color: #2563eb;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Button Click Effect */
+#home-buttons .btn:active {
+  transform: scale(0.95);
+}
