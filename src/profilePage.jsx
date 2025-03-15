@@ -172,11 +172,7 @@ return (
               </a>
             ))}
           </nav>
-          <div className="md:hidden">
-            <button className="text-gray-600">
-              ≡
-            </button>
-          </div>
+      
         </div>
       </header>
 
@@ -211,7 +207,7 @@ return (
       <p className="text-lg mb-6 text-gray-700">
         Hello! I'm <span className="font-semibold">Ramkesh</span>, a passionate 
         <span className="font-semibold"> Node.js Developer</span> with <span className="font-semibold">1 year of experience</span> in backend development. 
-        I have worked at <span className="font-semibold">Manthan IT Solutions</span> in Delhi, Janakpuri, where I gained hands-on experience in building 
+        I have worked at <span className="font-semibold">Manthan IT Solutions</span> in Delhi, Jangpura, where I gained hands-on experience in building 
         scalable and high-performance backend systems.
       </p>
       <p className="text-lg mb-6 text-gray-700">
